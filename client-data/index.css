@@ -1,25 +1,102 @@
 body {
-	background-color:#eee;
+	background-color:#f5f2e9;
 	width:100%;
 	margin:0;
 }
 
 header {
-	position:fixed;
-	left:0;
-	top:0;
-	text-shadow:1px 1px 2px #888;
+	position: fixed;;
+	top: 0px;
 	width:100%;
+	background-color:#f5f2e9;
+	border: solid;
+	z-index: 2;
+	height: 64px;
+	padding-right: 4rem;
+	padding-left: 4rem;
 }
 
-h1, h2 {
-	display:inline-block;
+.header_content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+
 }
+
+
+
+@font-face {
+	font-family: 'SpaceGrotesk';
+	src: url('../fonts/SpaceGrotesk-Medium.eot');
+	src: url('../fonts/SpaceGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/SpaceGrotesk-Medium.svg#SpaceGrotesk-Medium') format('svg'),
+		 url('../fonts/SpaceGrotesk-Medium.ttf') format('truetype'),
+		 url('../fonts/SpaceGrotesk-Medium.woff') format('woff'),
+		 url('../fonts/SpaceGrotesk-Medium.woff2') format('woff2');
+
+    src: url('../fonts/SpaceGrotesk-Regular.eot');
+    src: url('../fonts/SpaceGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SpaceGrotesk-Regular.svg#SpaceGrotesk-Regular') format('svg'),
+         url('../fonts/SpaceGrotesk-Regular.ttf') format('truetype'),
+         url('../fonts/SpaceGrotesk-Regular.woff') format('woff'),
+	     url('../fonts/SpaceGrotesk-Regular.woff2') format('woff2');
+	   
+	font-weight: normal;
+	font-style: normal;
+
+  }
+
+  * {
+    font-family: 'SpaceGrotesk-Regular';
+}
+
+h1{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: 'SpaceGrotesk-Regular';
+	font-size: 3.05rem;
+	line-height: 4.57rem;
+	font-weight: 600;
+	color: #333;
+}
+
+h2 {
+	display:inline-block;
+	font-family: 'SpaceGrotesk';
+	font-weight: 500;
+}
+
+
 
 main {
-	margin:100px auto;
+	margin: 74px auto;
 	width:100%;
-	max-width: 1100px;
+	max-width: 1200px;
 	font-size:1.2em;
 	position:relative;
 	text-align:justify;
@@ -34,37 +111,74 @@ main {
 }
 
 main>div {
-	margin:25px;
+	margin-left: 2rem;
+	margin-top: 1rem;
+	margin-right: 2rem;
 	min-width: 250px;
-	padding:35px;
+	padding: 2rem;
+	padding-top: 0;
 	transition:.1s;
 	flex:33%;
+	border: solid;
 }
 
-main>div:hover {
+/* main>div:hover {
 	transform:scale(1.1);
+} */
+
+main>div {
+	background-color: transparent;
 }
 
-header, main>div {
-	box-shadow: 2px 2px 10px #000;
-	background-color:#fff;
-}
-
-header:hover h2 {
+/* header:hover h2 {
 	animation:colorchange 100s infinite;
+} */
+
+
+main>div2 {
+	margin-left: 2rem;
+	margin-top: 1rem;
+	margin-right: 0.5rem;
+	min-width: 250px;
+	padding: 2rem;
+	padding-top: 0;
+	transition:.1s;
+	flex:33%;
+	border: solid;
+}
+
+main>div2 {
+	background-color: transparent;
+}
+
+
+main>div3 {
+	margin-left: 0.5rem;
+	margin-top: 1rem;
+	margin-right: 2rem;
+	min-width: 250px;
+	padding: 2rem;
+	padding-top: 0;
+	transition:.1s;
+	flex:33%;
+	border: solid;
+}
+
+main>div3 {
+	background-color: transparent;
 }
 
 .wbo-button {
 	white-space: nowrap;
 	text-decoration: none;
-	background: linear-gradient(#C4DFFF, #8FA2BC);
+	background: #333;
 	margin-top: 15px;
 	line-height: 60px;
 	border-radius: 30px;
 	box-shadow: inset 0 0 3px #8FA2BC;
 	display: block;
 	text-align: center;
-	color: black;
+	color: #ffffff;
 	transition: .1s;
 }
 
@@ -73,12 +187,12 @@ a{
 }
 
 .wbo-button:hover{
-	box-shadow: 0 0 5px #C4DFFF;
+	box-shadow: 0 0 5px #333;
 }
 
 .wbo-button:focus, .wbo-button:active {
-	box-shadow: 0 0 5px #0074D9;
-  background: linear-gradient(#96E1FF, #36A2FF);
+	box-shadow: 0 0 5px #333;
+  background: #333;
 }
 
 input{
@@ -92,7 +206,45 @@ input{
 
 footer{
   font-size: .9em;
-	position:fixed;
-	bottom: 0;
+	position: relative;
+	margin-right: 2rem;
+	float: right;
+
+	bottom: 1rem;
 	right: 0;
 }
+
+@media screen and (max-width: 710px) {
+
+	h1{
+		font-size: 2rem;
+		line-height: 3.05rem;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+	}
+	header {
+		padding-right: 3rem;
+		padding-left: 3rem;
+	}
+
+	main>div {
+		margin-left: 1rem;
+		margin-top: 1rem;
+		margin-right: 1rem;
+	}
+	
+	main>div2 {
+		margin-left: 1rem;
+		margin-top: 1rem;
+		margin-right: 1rem;
+	}
+	
+	main>div3 {
+		margin-left: 1rem;
+		margin-top: 1rem;
+		margin-right: 1rem;
+	}
+	
+	}
