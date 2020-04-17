@@ -24,6 +24,7 @@
 
 <body>
 
+
 	<div id="board">
 		<svg id="canvas" width="500" height="500" version="1.1" xmlns="http://www.w3.org/2000/svg">
 			<defs id="defs"></defs>
@@ -40,8 +41,10 @@
 
 			<ul class="tools" id="settings">
 				<li class="tool">
-					<span class="tool-icon">
-						<input type="color" id="chooseColor" value="#1913B0" />
+					<span class="tool-icon-color">
+						<div class="input-color-container">
+						<input type="color" id="chooseColor" class="input-color" value="#1913B0" />
+					</div>
 					</span>
 					<label class="tool-name" for="chooseColor">{{translate translations 'Color'}}</label>
 					<span class="colorPresets" id="colorPresetSel">
@@ -49,17 +52,17 @@
 					</span>
 				</li>
 				<li class="tool">
-					<span class="tool-icon">
+					<span class="tool-icon-size">
 						<svg viewBox="-60 -60 120 120">
 							<circle id="sizeIndicator" cx=0 cy=0 r=10 /></svg>
 					</span>
 					<label class="tool-name slider" for="chooseSize">
 						<span>{{translate translations 'Size'}}</span>
-						<input type="range" id="chooseSize" value="4" min="1" max="50" step="1" class="rangeChooser" />
+						<input type="range" id="chooseSize" value="10" min="1" max="50" step="1" class="rangeChooser" />
 					</label>
 				</li>
 				<li class="tool">
-					<span class="tool-icon">
+					<span class="tool-icon-size">
 						<svg viewBox="0 0 12 12">
 							<pattern id="opacityPattern" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
 								<rect x=0 y=0 width=2 height=2 fill=black />
