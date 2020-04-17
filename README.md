@@ -6,7 +6,7 @@ This board is an extension of the [lovasoa/whitebophir](https://github.com/lovas
 
 A demonstration server is available at [beforeidie.libraryofpeople.com](https://beforeidie.libraryofpeople.com).
 
-## Screenshots
+<!-- ## Screenshots
 
 <table>
  <tr>
@@ -20,7 +20,7 @@ A demonstration server is available at [beforeidie.libraryofpeople.com](https://
    <td> <img alt=wbo teaching" width="300" src="https://user-images.githubusercontent.com/552629/59915737-a386e580-941d-11e9-81ff-db9e37f140db.png" />
    <td> drawing art
    <td> <img alt="angel drawn on WBO" width="300" src="https://user-images.githubusercontent.com/552629/59914139-08404100-941a-11e9-9c29-bd2569fe4730.png"/>
-</table>
+</table> -->
 
 ## Running your own instance of WBO
 
