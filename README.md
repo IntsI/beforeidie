@@ -22,7 +22,7 @@ A demonstration server is available at [beforeidie.libraryofpeople.com](https://
    <td> <img alt="angel drawn on WBO" width="300" src="https://user-images.githubusercontent.com/552629/59914139-08404100-941a-11e9-9c29-bd2569fe4730.png"/>
 </table> -->
 
-## Running your own instance of WBO
+## Running your own instance of Befor I die (WBO)
 
 If you have your own web server, and want to run a private instance of WBO on it, you can. It should be very easy to get it running on your own server.
 
