@@ -4,7 +4,7 @@ Befor I die is digital version of [Before I die project](https://beforeidieproje
 
 This board is an extension of the [lovasoa/whitebophir](https://github.com/lovasoa/whitebophir) project.
 
-A demonstration server is available at [beforeidie.libraryofpeople.com](https://beforeidie.libraryofpeople.com).
+Project is available at [beforeidie.libraryofpeople.com](https://beforeidie.libraryofpeople.com).
 
 <!-- ## Screenshots
 
