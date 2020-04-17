@@ -91,10 +91,14 @@ html, body, svg {
 	cursor:pointer;
 	background: #0c0c0c;
 	margin-top: 10px;
-	height: 60px;
+	height: 40px;
 	line-height: 60px;
 	border-radius: 33px;
+<<<<<<< HEAD
 	max-width: 60px;
+=======
+	max-width: 40px;
+>>>>>>> bf821dbe1a0dcf340c20ca25e6b2767e91a7ad56
 	transition-duration: .5s;
 	overflow: hidden;
 	width: max-content;	
@@ -151,6 +155,7 @@ html, body, svg {
 	height: 30px;
 	height: 100%;
 	font-family: mono;
+<<<<<<< HEAD
 }
 
 #menu .tool-icon-size {
@@ -170,6 +175,27 @@ html, body, svg {
     height: 60px;
 }
 
+=======
+}
+
+#menu .tool-icon-size {
+	display: inline-block;
+	text-align:center;
+	font-size:24px;
+	width: 30px;
+	margin-right: 26px;
+	font-family: mono;
+}
+
+#menu .tool-icon-size > * {
+	display: block;
+	margin: auto;
+	border-radius: 30px;
+	width: 60px;
+    height: 60px;
+}
+
+>>>>>>> bf821dbe1a0dcf340c20ca25e6b2767e91a7ad56
 
 #menu .tool-name {
 	text-align: center;
