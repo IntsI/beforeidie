@@ -1,7 +1,6 @@
-# WBO
+# Befor I die
 
-WBO is an online collaborative whiteboard that allows many users to draw simultaneously on a large virtual board.
-The board is updated in real time for all connected users, and its state is always persisted. It can be used for many different purposes, including art, entertainment, design, teaching.
+Befor I die is digital version of [Before I die project](https://beforeidieproject.com). 
 
 This board is an extension of the [lovasoa/whitebophir](https://github.com/lovasoa/whitebophir) project.
 
