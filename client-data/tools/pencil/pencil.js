@@ -186,7 +186,7 @@
 
 	Tools.add({ //The new tool
 		"name": "Pencil",
-		"icon": "✏",
+		"icon": "<i style='color: #ffffff ;margin-top:5px' class='fas fa-pen'></i>",
 		"shortcut": "p",
 		"listeners": {
 			"press": startLine,

@@ -71,7 +71,7 @@ Tools.HTML = {
 			elem.addEventListener("click", callback);
 			elem.id = "toolID-" + toolName;
 			elem.getElementsByClassName("tool-name")[0].textContent = Tools.i18n.t(toolName);
-			elem.getElementsByClassName("tool-icon")[0].textContent = toolIcon;
+			elem.getElementsByClassName("tool-icon")[0].innerHTML = toolIcon;
 			elem.title =
 				Tools.i18n.t(toolName) + " (" +
 				Tools.i18n.t("keyboard shortcut") + ": " +

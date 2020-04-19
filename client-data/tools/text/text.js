@@ -161,7 +161,7 @@
 
 	Tools.add({ //The new tool
 		"name": "Text",
-		"icon": "T",
+		"icon": "<i style='color: #ffffff ;margin-top:5px' class='fas fa-font'></i>",
 		"shortcut": "t",
 		"listeners": {
 			"press": clickHandler,

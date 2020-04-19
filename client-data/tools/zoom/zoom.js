@@ -156,7 +156,7 @@
 
     var zoomTool = {
         "name": "Zoom",
-        "icon": "🔎",
+        "icon": "<i style='color: #ffffff ;margin-top:5px' class='fas fa-search-plus'></i>",
 		"shortcut": "z",
         "listeners": {
             "press": press,

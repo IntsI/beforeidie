@@ -46,7 +46,7 @@
 
 	Tools.add({ //The new tool
 		"name": "Hand",
-		"icon": "✋",
+		"icon": "<i style='color: #ffffff ;margin-top:5px' class='fas fa-arrows-alt'></i>",
 		"shortcut": "h",
 		"listeners": {
 			"press": press,
